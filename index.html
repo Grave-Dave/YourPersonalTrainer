@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Dawid Grabarz">
+    <title>Your Personal Trainer</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Grape+Nuts&family=Roboto:wght@100;400;700&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons@latest/iconfont/tabler-icons.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="https://kit.fontawesome.com/1f8e79f6df.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <nav>
+        <div class="nav__logo-box">
+            <div class="nav__logo-text"><span class="start">your</span><span class="middle">personal</span><span
+                    class="end">trainer</span></div>
+            <div class="nav__logo-icon"><i class="fa-solid fa-dumbbell"></i></div>
+        </div>
+        <div class="nav__menu-box">
+            <button class="hamburger hamburger--collapse" type="button">
+                <span class="hamburger-box">
+                    <span class="hamburger-inner"></span>
+                </span>
+            </button>
+            <div class="nav__menu-items">
+                <a href="#" class="nav__home nav-btn">Home</a>
+                <a href="#offer" class="nav__offer nav-btn">Oferta</a>
+                <a href="#team" class="nav_team nav-btn">Zespół</a>
+                <a href="#price" class="nav_price nav-btn">Cennik</a>
+                <a href="#contact" class="nav_contact nav-btn">Kontakt</a>
+            </div>
+            <div class="nav__menu-items-mobile">
+                <a href="#" class="nav__home nav-btn">Home</a>
+                <a href="#offer" class="nav__offer nav-btn">Oferta</a>
+                <a href="#team" class="nav_team nav-btn">Zespół</a>
+                <a href="#price" class="nav_price nav-btn">Cennik</a>
+                <a href="#contact" class="nav_contact nav-btn">Kontakt</a>
+            </div>
+        </div>
+    </nav>
+
+    <header>
+        <div class="header__img header__img--desktop"></div>
+        <div class="header__img header__img--mobile"></div>
+        <a href="#offer" class="header__btn btn-special"> Zdobądź formę!</a>
+        <p class="inspirational-text inspirational-text-one"></p> <span
+            class="inspirational-text-author-one inspirational-text-author "></span>
+        <p class="inspirational-text inspirational-text-two"></p> <span
+            class="inspirational-text-author-two inspirational-text-author "></span>
+    </header>
+
+    <main>
+        <section class="offer" id="offer">
+            <div bg-img="stamina" class="offer__shadow"></div>
+            <h2 class="section-heading">oferta</h2>
+
+            <div class="offer__boxes">
+                <div class="offer__accordion-box">
+                    <button class="offer__accordion-btn" bg-img="fat-burn">Spalanie tkanki tłuszczowej
+                    </button>
+                    <div class="offer__accordion-info">
+                        <ul class="offer__info-list">
+                            <li class="offer__info-list-item">Treningi nastawione na szybką redukcję tkanki tłuszczowej
+                            </li>
+                            <li class="offer__info-list-item">Duża instensywność ćwiczeń siłowych i wydolnościowych</li>
+                            <li class="offer__info-list-item">Różnorodne zajęcia i brak rutyny</li>
+                            <li class="offer__info-list-item">Treningi ogólnorozwojowe całego ciała</li>
+                        </ul>
+                    </div>
+                    <i class="offer__icon fa-solid fa-person-running"></i>
+                </div>
+                <div class="offer__accordion-box">
+                    <button class="offer__accordion-btn" bg-img="stamina">zwiększenie wytrzymałości
+                    </button>
+                    <div class="offer__accordion-info">
+                        <ul class="offer__info-list">
+                            <li class="offer__info-list-item">Treningi nastawione na poprawę wydolności
+                            </li>
+                            <li class="offer__info-list-item">Wzmocnienie mięśni bez rozbudowy masy mięśniowej</li>
+                            <li class="offer__info-list-item">Profesjonalny sprzęt</li>
+                            <li class="offer__info-list-item">Monitorowanie postępów</li>
+                        </ul>
+                    </div>
+                    <i class="offer__icon fa-solid fa-heart-pulse"></i>
+                </div>
+                <div class="offer__accordion-box">
+                    <button class="offer__accordion-btn" bg-img="muscle">budowa wymarzonej sylwetki
+                    </button>
+                    <div class="offer__accordion-info">
+                        <ul class="offer__info-list">
+                            <li class="offer__info-list-item">Rozbudowa masy mięśniowej
+                            </li>
+                            <li class="offer__info-list-item">Wsparcie i motywacja podczas ćwiczeń</li>
+                            <li class="offer__info-list-item">Profesjonalne plany treningowe</li>
+                            <li class="offer__info-list-item">Porady żywieniowe</li>
+                        </ul>
+                    </div>
+                    <i class="offer__icon fa-solid fa-arrow-up-right-dots"></i>
+                </div>
+            </div>
+
+        </section>
+
+        <section class="team" id="team">
+            <h2 class="section-heading">Zespół</h2>
+            <p class="team__quote"><i class="team__quote-icon fa-solid fa-quote-right"></i> Pracownicy są ważni.
+                Jeśli o nich zadbasz, oni zatroszczą się o klientów. - <span class="team__quote-span">Richard
+                    Branson</span></p>
+
+            <div class="team__icon-box">
+                <div class="team__icon-item">
+                    <i class="fa-solid fa-file-signature"></i>
+                    <p>ponad</p>
+                    <p class="counter" data-number="1000">0</p>
+                    <p>Ułożonych planów treningowych</p>
+                </div>
+                <div class="team__icon-item">
+                    <i class="fa-solid fa-users"></i>
+                    <p>ponad</p>
+                    <p class="counter" data-number="300">0</p>
+                    <p>Zadowolonych klientów</p>
+                </div>
+                <div class="team__icon-item">
+                    <i class="fa-solid fa-star"></i>
+                    <p>ponad</p>
+                    <p class="counter" data-number="450">0</p>
+                    <p>uzyskanych pozytywnych opinii</p>
+                </div>
+            </div>
+
+
+            <div class="team__wrapper">
+                <div class="team__card coach1 team-active" data-coach="coach1">
+                    <div class="team__text">
+                        <h2>kasia</h2>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                    </div>
+                </div>
+                <div class="team__card coach2" data-coach="coach2">
+                    <div class="team__text">
+                        <h2>kamil</h2>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                    </div>
+                </div>
+                <div class="team__card coach3" data-coach="coach3">
+                    <div class="team__text">
+                        <h2>jarek</h2>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                    </div>
+                </div>
+                <div class="team__card coach4" data-coach="coach4">
+                    <div class="team__text">
+                        <h2>ela</h2>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="team__heroImg">
+                <div class="team__heroImg-heading">
+                    <h3>Z nami uzyskasz: </h3>
+                </div>
+                <div class="team__heroImg-text">
+                    <p class="team__heroImg-item"><i class="fa-solid fa-graduation-cap"></i> stałą opiekę trenera</p>
+                    <p class="team__heroImg-item"><i class="fa-solid fa-coins"></i> osiągnięty rezultat lub zwrot
+                        pieniędzy</p>
+                    <p class="team__heroImg-item"><i class="fa-solid fa-person-chalkboard"></i>indywidualny plan oraz
+                        dietę</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="price" id="price">
+            <h2 class="section-heading">Cennik</h2>
+
+            <div class="price__boxes">
+                <div class="price__box">
+                    <div class="price__box-title">Pakiet <span class="price__box-span">easy</span></div>
+                    <hr>
+                    <div class="price__box-items">
+                        <p class="price__item">5 treningów</p>
+                        <p class="price__item">pomoc i motywacja</p>
+                        <p class="price__item">zaawansowany sprzęt</p>
+                        <p class="price__item">porady żywieniowe</p>
+                        <p class="price__value">399 pln/msc</p>
+                    </div>
+                    <button class="price__btn">Zamów</button>
+                </div>
+                <div class="price__box price__box-full">
+                    <div class="price__box-title">Pakiet <span class="price__box-span">full</span></div>
+                    <hr>
+                    <div class="price__box-items">
+                        <p class="price__item">12 treningów</p>
+                        <p class="price__item">kontrola postępów</p>
+                        <p class="price__item">stały nadzór trenera</p>
+                        <p class="price__item">indywidualna dieta</p>
+                        <p class="price__value">799 pln/msc</p>
+
+                    </div>
+                    <button class="price__btn price__btn-color">Zamów</button>
+                </div>
+
+                <div class="price__box price__box-special">
+                    <i class="price__arrow ti ti-arrow-bear-right"></i>
+                    <p class="price__info">Najczęściej wybierana opcja</p>
+
+                    <div class="price__line">
+                        <svg width="546" height="693" viewBox="0 0 546 693" fill="none"
+                            preserveAspectRatio="xMidYMax meet">
+                            <g filter="url(#filter0_f_1_19)">
+                                <path
+                                    d="M273 48.1216C413.833 48.1216 528 188.453 528 361.561C528 534.669 413.833 675 273 675C132.167 675 18 534.669 18 361.561C18 188.453 132.167 18 273 18"
+                                    stroke="#FDF9F9" stroke-width="22" stroke-linecap="round" />
+                            </g>
+                            <defs>
+                                <filter id="filter0_f_1_19" x="0" y="0" width="546" height="693"
+                                    filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                                    <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                                    <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
+                                    <feGaussianBlur stdDeviation="3.5" result="effect1_foregroundBlur_1_19" />
+                                </filter>
+                            </defs>
+                        </svg>
+                    </div>
+                </div>
+
+                <div class="price__box">
+                    <div class="price__box-title">Pakiet <span class="price__box-span">pro</span></div>
+                    <hr>
+                    <div class="price__box-items">
+                        <p class="price__item">treningi bez limitu</p>
+                        <p class="price__item">analiza składu ciała</p>
+                        <p class="price__item">konsultacja fizjoterapeuty</p>
+                        <p class="price__item">masaże sportowe</p>
+                        <p class="price__value">999 pln/msc</p>
+                    </div>
+                    <button class="price__btn">Zamów</button>
+                </div>
+            </div>
+
+        </section>
+
+        <section class="contact" id="contact">
+            <h2 class="section-heading">Kontakt</h2>
+
+            <form class="contact__form">
+                <p class="contact__form-info">Masz pytania? <span class="contact__form-info-span">Napisz do nas!</span>
+                </p>
+                <div class="contact__name-box">
+
+                    <div class="contact__name">
+                        <label for="name" class="contact__label">Imię</label>
+                        <input type="text" class="contact__input" id="name" placeholder="Jak się nazywasz?">
+                    </div>
+                    <div class="contact__name">
+                        <label for="name" class="contact__label">Nazwisko</label>
+                        <input type="text" class="contact__input" id="name" placeholder="Jak się nazywasz?">
+                    </div>
+                    <div class="contact__email">
+                        <label for="email" class="contact__label">Adres e-mail</label>
+                        <input type="email" class="contact__input" id="email" placeholder="Twój adres email">
+                    </div>
+
+                </div>
+
+                <label for="msg" class="contact__label">Wiadomość</label>
+                <textarea id="msg" class="contact__textarea" cols="30" rows="10"></textarea>
+
+                <button class="contact__btn">Wyślij</button>
+            </form>
+
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <div class="footer__img">
+
+            <div class="footer__logo-box">
+                <div class="footer__logo-text"><span class="start">your</span><span class="middle">personal</span><span
+                        class="end">trainer</span></div>
+                <div class="footer__logo-icon"><i class="fa-solid fa-dumbbell"></i></div>
+            </div>
+            <div class="footer__address">
+                <h3 class="footer__heading">Nasza siedziba: </h3>
+                <p class="footer__address-item">ul. Główna 10</p>
+                <p class="footer__address-item">00-000 Wrocław</p>
+                <p class="footer__address-item">+48 000 000 000</p>
+                <p class="footer__address-item">mail@mail.com</p>
+            </div>
+            <div class="footer__media">
+                <h3 class="footer__heading">Obserwuj nas na: </h3>
+                <a href="#" class="footer__media-item"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#" class="footer__media-item"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#" class="footer__media-item"><i class="fa-brands fa-twitter"></i></a>
+
+            </div>
+
+        </div>
+        <p class="footer__end">&copy; 2022 | YourPersonalTrainer</p>
+    </footer>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
+    <script src="./main.js"></script>
+
+</body>
+
+</html>

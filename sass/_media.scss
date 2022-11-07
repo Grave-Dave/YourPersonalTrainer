@@ -1,0 +1,320 @@
+@media (min-width: 375px) {
+	.nav {
+		&__logo-text {
+			width: 150px;
+			font-size: 2rem;
+		}
+		&__logo-icon {
+			font-size: 3rem;
+		}
+		&__menu-items-mobile {
+			margin-top: 5.6em;
+			padding: 1em 0;
+		}
+	}
+
+	.header {
+		&__btn {
+			font-size: 1.2rem;
+			padding: 1em 2em;
+		}
+	}
+	.inspirational-text-two,
+	.inspirational-text-author-two,
+	.inspirational-text-one,
+	.inspirational-text-author-one {
+		left: 15%;
+	}
+}
+
+// ------------------------------------------------------
+
+@media (min-width: 576px) {
+	.nav {
+		&__logo-icon {
+			font-size: 3.5rem;
+		}
+	}
+
+	.header {
+		&__btn {
+			font-size: 1.6rem;
+		}
+	}
+	.inspirational-text-two,
+	.inspirational-text-author-two {
+		left: 55%;
+	}
+	.inspirational-text-one,
+	.inspirational-text-two,
+	.inspirational-text-author {
+		font-size: 1.2rem;
+	}
+
+	.team {
+		&__heroImg {
+			&-text {
+				margin-top: 3.5em;
+				font-size: 1.6rem;
+			}
+			&-item {
+				height: 200px;
+				width: 30%;
+				margin: 0;
+			}
+		}
+	}
+
+	.price {
+		&__box {
+			margin: 1.5em;
+			padding: 2em;
+			width: 30%;
+			min-width: 420px;
+			min-height: 550px;
+			font-size: 2rem;
+
+			&-title {
+				font-size: 3rem;
+			}
+		}
+		&__box-special {
+			display: block;
+		}
+	}
+	.footer {
+		&__img {
+			height: 500px;
+		}
+		&__logo-box {
+			width: 500px;
+			justify-content: center;
+		}
+	}
+}
+// ------------------------------------------------------
+
+@media (min-width: 768px) {
+	.nav {
+		&__logo-text {
+			width: 200px;
+			font-size: 3rem;
+		}
+		&__logo-icon {
+			font-size: 4rem;
+		}
+		&__menu-items-mobile {
+			margin-top: 7.5em;
+			padding: 1em;
+		}
+	}
+	.header {
+		&__btn {
+			font-size: 1.8rem;
+		}
+	}
+	.team {
+		&__wrapper {
+			flex-direction: row;
+		}
+		&__icon-box {
+			padding: 3em;
+		}
+		&__icon-item {
+			padding: 1em;
+			width: 40%;
+			margin: 0 1em 1em;
+		}
+		&__text {
+			h2 {
+				transform: rotate(-90deg);
+			}
+
+			p {
+				font-size: 2.5rem;
+			}
+		}
+	}
+	.inspirational-text-one,
+	.inspirational-text-two,
+	.inspirational-text-author {
+		font-size: 1.5rem;
+	}
+	.inspirational-text-two {
+		bottom: 20%;
+	}
+	.inspirational-text-author-two {
+		bottom: 17%;
+	}
+
+	.inspirational-text-one {
+		top: 25%;
+	}
+	.inspirational-text-author-one {
+		top: 28%;
+	}
+
+	.contact {
+		&__name-box {
+			width: 700px;
+			max-width: 700px;
+		}
+		&__textarea {
+			min-width: 660px;
+			max-width: 660px;
+		}
+		&__name {
+			max-width: 340px;
+		}
+
+		&__btn {
+			margin: 1em 1.5em 1em 0;
+			align-self: flex-end;
+		}
+	}
+	.footer {
+		&__logo-box {
+			width: 700px;
+		}
+	}
+}
+// ------------------------------------------------------
+
+@media (min-width: 992px) {
+	.nav {
+		&__logo-icon {
+			font-size: 5rem;
+		}
+		&__menu-items {
+			display: block;
+			font-size: 1.8rem;
+		}
+		&__menu-items-mobile {
+			display: none;
+		}
+	}
+	.hamburger {
+		display: none;
+	}
+	.header {
+		&__img--desktop {
+			display: block;
+		}
+		&__img--mobile {
+			display: none;
+		}
+		&__btn {
+			font-size: 2.2rem;
+		}
+	}
+	.offer {
+		&__shadow {
+			display: block;
+		}
+		&__boxes {
+			row-gap: 6em;
+		}
+	}
+	.team {
+		&__heroImg {
+			&-heading {
+				font-size: 2.2rem;
+			}
+			&-text {
+				margin-top: 3em;
+				font-size: 2rem;
+			}
+		}
+		&__quote {
+			font-size: 2rem;
+		}
+	}
+
+	.price {
+		&__box-full {
+			order: 1;
+		}
+		&__box-special {
+			bottom: 0px;
+		}
+	}
+
+	.footer {
+		&__img {
+			height: 300px;
+		}
+		&__logo-box {
+			width: 350px;
+			justify-content: center;
+			order: 1;
+		}
+		&__media {
+			order: 2;
+		}
+	}
+}
+
+// ------------------------------------------------------
+
+@media (min-width: 1200px) {
+	.nav {
+		&__menu-items {
+			margin-right: 2em;
+			font-size: 2.2rem;
+		}
+	}
+	.team {
+		&__icon-item {
+			width: 25%;
+		}
+	}
+	.price {
+		&__info {
+			bottom: -20%;
+			left: -90%;
+		}
+	}
+}
+
+// ------------------------------------------------------
+
+@media (min-width: 1400px) {
+	.offer {
+		&__accordion-box {
+			&:nth-child(1) {
+				transform: translateX(150%);
+				transition-delay: 500ms;
+			}
+			&:nth-child(2) {
+				transform: translateX(0%);
+			}
+			&:nth-child(3) {
+				transform: translateX(-150%);
+				transition-delay: 1000ms;
+			}
+		}
+	}
+	.inspirational-text-one,
+	.inspirational-text-two,
+	.inspirational-text-author {
+		font-size: 1.8rem;
+	}
+
+	.footer {
+		&__logo-box {
+			width: 350px;
+			justify-content: center;
+			order: 1;
+		}
+		&__address,
+		&__media {
+			min-width: 350px;
+		}
+		&__media {
+			order: 3;
+		}
+		&__address {
+			order: 2;
+		}
+	}
+}

@@ -1,0 +1,39 @@
+@keyframes show-bg {
+	to {
+		background-color: rgba(0, 0, 0, 0.6);
+	}
+}
+
+@keyframes show-text {
+	to {
+		opacity: 1;
+	}
+}
+
+// ---------------------------------------------------------
+
+@keyframes pulse {
+	from {
+		transform: scale(0.1);
+		opacity: 0.5;
+	}
+	to {
+		transform: scale(1.1);
+		opacity: 1;
+	}
+}
+
+// ---------------------------------------------------------
+
+@keyframes intro {
+	0% {
+		opacity: .5;
+	}
+	50% {
+		opacity: 0;
+	}
+	100% {
+		transform: scale(0);
+		opacity: 0;
+	}
+}
