@@ -32,9 +32,9 @@ const handleGif = e => {
 		const j = 14;
 
 		if (heightRatio >= j * i) {
-			heroHeader.style.backgroundImage = `url(../img/hero1-img/frame_1.1.${i + 1}.webp)`;
-		} else if (heightRatio < j) {
-			heroHeader.style.backgroundImage = '';
+			heroHeader.classList.add(`header__img-${i+1}--desktop`);
+		} else if (heightRatio < j*i) {
+			heroHeader.classList.remove(`header__img-${i+1}--desktop`);
 		}
 	}
 };
